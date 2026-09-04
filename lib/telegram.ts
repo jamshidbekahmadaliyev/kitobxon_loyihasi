@@ -1,4 +1,4 @@
-﻿import crypto from 'crypto';
+import crypto from 'crypto';
 
 export function validateWebAppData(initData: string, token: string): boolean {
   if (!initData || !token) return false;
@@ -10,7 +10,7 @@ export function validateWebAppData(initData: string, token: string): boolean {
     
     parsedData.delete('hash');
     const dataCheckString = Array.from(parsedData.entries())
-      .map(([key, value]) => \=\)
+      .map(([key, value]) => `${key}=${value}`)
       .sort()
       .join('\n');
       
