@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788441343191,
+      "tag": "0000_eager_korg",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788442013858,
+      "tag": "0001_hesitant_ulik",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788455230393,
+      "tag": "0002_goofy_tomas",
+      "breakpoints": true
+    }
+  ]
+}
