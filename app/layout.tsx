@@ -62,7 +62,7 @@ export default async function RootLayout({
         <Navbar 
           isAuthenticated={!!session} 
           isAdmin={currentUser?.username === "admin"} 
-          userDisplayName={currentUser?.displayName} 
+          userDisplayName={currentUser?.displayName ?? undefined} 
           userUsername={currentUser?.username} 
         />
         <div className="pb-20 xl:pb-0 xl:ml-64">
